@@ -21,6 +21,5 @@ next.addEventListener("click", onNextClick);
 prev.addEventListener("click", onPrevClick);
 
 const lightbox = new SimpleLightbox(".gallery a", {
-  captionsData: "alt",
   captionDelay: 250,
 });

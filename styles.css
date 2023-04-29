@@ -31,6 +31,36 @@ img {
   margin-right: auto;
 }
 
+/* .container {
+  width: 960px;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin: 0 auto;
+  }
+  
+  @media (max-width: 480px) {
+  .container {
+  max-width: 480px;
+  }
+  }
+  
+  @media (min-width: 481px) and (max-width: 768px) {
+  .container {
+  max-width: 768px;
+  }
+  }
+  
+  @media (min-width: 769px) and (max-width: 1200px) {
+  .container {
+  max-width: 1200px;
+  }
+  }
+  
+  @media (min-width: 1201px) {
+  .container {
+  max-width: none;
+  }
+  } */
 .page-header {
   display: flex;
   align-items: center;
@@ -48,6 +78,10 @@ img {
   letter-spacing: 0.5px;
   color: #f07f2e;
   text-decoration: none;
+  animation-name: spin;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }
 
 .page-nav {
